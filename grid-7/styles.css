@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 30px;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 4fr);
+}
+
+.box {
+  background-color: mediumpurple;
+  font-style: 30px;
+}
